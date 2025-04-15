@@ -15,4 +15,4 @@ jobs:
         run: |
           curl -X GET "$RENDER_DEPLOY_HOOK"
         env:
-          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+          RENDER_DEPLOY_HOOK: ${{ https://api.render.com/deploy/srv-cvv177hr0fns73a0hamg?key=91aLCf1eMkM }}
